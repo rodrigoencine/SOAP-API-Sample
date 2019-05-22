@@ -5,7 +5,7 @@ Para rodar o projeto, abrir uma pasta acima do projeto (exemplo Documentos/calc)
 javac calc/*.java
 
 
-javac javac calc/APIService.java
+javac calc/APIService.java
 
 
 java calc.APIService.java
