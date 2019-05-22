@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<produtos>
+<produto>
+<nome>Cerveja</nome>
+<quantidade>20</quantidade>
+<id>1</id>
+</produto>
+<produto>
+<nome>Xbox 360</nome>
+<quantidade>10</quantidade>
+<id>2</id>
+</produto>
+<produto>
+<nome>JoJo</nome>
+<quantidade>204</quantidade>
+<id>3</id>
+</produto>
+<produto>
+<nome>Sabão</nome>
+<quantidade>69</quantidade>
+<id>4</id>
+</produto>
+</produtos>
