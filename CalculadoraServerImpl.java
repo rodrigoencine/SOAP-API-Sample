@@ -5,31 +5,26 @@ import java.util.List;
 import javax.jws.WebService;
  
 @WebService(endpointInterface = "calc.CalculadoraServer")
-public class CalculadoraServerImpl implements CalculadoraServer {
-     
-  public float soma(float num1, float num2) {
-    return num1 + num2;
-  }
-   
-  public float subtracao(float num1, float num2) {
-    return num1 - num2;
-  }
- 
-  public float multiplicacao(float num1, float num2) {
-    return num1 * num2;
-  }
- 
-  public float divisao(float num1, float num2) {
-    return num1 / num2;
-  }
+public class CalculadoraServerImpl implements CalculadoraServer { 
   
-  public String hello() {
-	  return "eae men kkk";
-  }
-  
-  public Produto[] listAll(){
+  public String listAll(){
 	  Service servico = new Service();
 	  return servico.listarProdutos();
+  }
+  
+  public String addProduto(int id, String nome, int quantidade){
+	  Service servico = new Service();
+	  return servico.addProduto(id, nome, quantidade);
+  }
+  
+  public String remover(int id){
+	  Service servico = new Service();
+	  return servico.remover(id);
+  }
+  
+  public String alterar(int id, int quantidade){
+	  Service servico = new Service();
+	  return servico.alterar(id, quantidade);
   }
  
 }
