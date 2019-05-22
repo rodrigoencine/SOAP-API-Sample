@@ -16,5 +16,4 @@ java calc.APIService.java
 Em um novo terminal, digite: 
 
 
-java calc.CalculadoraClient
-
+java calc.CartClient
