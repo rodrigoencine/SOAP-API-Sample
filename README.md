@@ -5,10 +5,10 @@ Para rodar o projeto, abrir uma pasta acima do projeto (exemplo Documentos/calc)
 javac calc/*.java
 
 
-javac calc/CalculadoraServerPublisher.java
+javac javac calc/APIService.java
 
 
-java calc.CalculadoraServerPublisher 
+java calc.APIService.java
 
 (a partir daqui o servidor está na rede no endereço http://127.0.0.1:9876/calc?wsdl)
 
