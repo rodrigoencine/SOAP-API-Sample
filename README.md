@@ -8,7 +8,12 @@ javac calc/*.java
 javac calc/CalculadoraServerPublisher.java
 
 
-java calc.CalculadoraServerPublisher
+java calc.CalculadoraServerPublisher 
+
+(a partir daqui o servidor está na rede no endereço http://127.0.0.1:9876/calc?wsdl)
+
+
+Em um novo terminal, digite: 
 
 
 java calc.CalculadoraClient
